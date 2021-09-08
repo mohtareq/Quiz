@@ -1,0 +1,118 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background: rgb(204,7,48);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    color: #fff;
+    min-height: 100vh;
+    margin: auto;
+}
+
+
+.payment {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    justify-content: center;
+    width: 350px;
+    background: rgb(204,7,48);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    margin-left: 37%;
+}
+
+p {
+    display: block;
+    padding-top: 25px;
+}
+
+.header {
+    font-family: 'Yandex Sans medium';
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+.header-txt{
+    font-size: 20px;
+    font-family: 'Yandex Sans light';
+    margin-bottom: 15px;
+    text-align: center;
+    color: white;
+}
+
+.dots {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.dot1 {
+    height: 13px;
+    width: 13px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot2, .dot3, .dot4 {
+    height: 13px;
+    width: 13px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.question {
+    font-size: 1.6rem;
+    font-family: 'Yandex Sans light';
+    margin-bottom: 2.4rem;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    margin-left: 42%;
+    padding-bottom: 300px;
+}
+
+.button {
+    font-family: 'Yandex Sans bold';
+    font-size: 24px;
+    color: #151515;
+    font-weight: 700;
+    border-radius: 28px;
+    background-color: #fff;
+    padding: 8px 25px 8px 25px;
+    border: none;
+    text-align: center;
+    margin: auto 15px;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    -ms-border-radius: 28px;
+    -o-border-radius: 28px;
+}
+
+.button:hover{
+    background-color: yellow;
+}
+
+.button:focus{
+    background-color: yellow;
+}
+
+.footer-para {
+    text-align: center;
+}

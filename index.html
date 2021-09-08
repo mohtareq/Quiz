@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <section class="img-section">
+        <img src="./img/604e0eb435f52.png" alt="payment" class="payment">
+    </section>
+    <section class='para'>
+        <p class="header">WELCOME!</p>
+        <P class="header-txt">
+            Before entering our competition, we would like you to answer a few questions so that you can qualify to take part.
+        </P>
+        <div class="dots">
+            <span id="dot1" class="dot1"></span>
+            <span class="dot2"></span>
+            <span id="dot3" class="dot3"></span>
+            <span class="dot4"></span>
+        </div>
+        <div>
+            <p id="text" class="question">Did you find the hidden balloon in the picture?</p>
+        </div>
+        <div class="buttons">
+            <button onclick="newQuote()" class="button b1" id="new-quote"> Yes </button>
+            <button onclick="newQuote(), changeColor()" class="button b2" id="new-quote"> no </button>
+        </div>
+    </section>
+    <section>
+        <footer>
+            <div class="footer-para">
+                <p>
+                    This competition is sponsored in no way, endorsed or administered by, or associated with, Facebook. You are providing your information to a third party and not to Facebook. The <br> information you provide will be used for entry into the competition and kept private by the third party competition provider.
+                </p>
+                <p class="footer-para2">
+                    Privacy Policy Cookie Policy Terms & Conditions DGPR Compliance Contact Us
+                </p>
+            </div>
+        </footer>
+    </section>
+    <script src="./index.js"></script>
+</body>
+</html>
