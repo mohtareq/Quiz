@@ -6,9 +6,6 @@
   margin: 0;
 }
 
-
-
-@media screen and ( min-width: 1042px) {
 body {
     box-sizing: border-box;
     background: rgb(204,7,48);
@@ -18,53 +15,50 @@ body {
     color: #fff;
     min-height: 100vh;
     margin: auto;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.img-section {
+    text-align: center;
 }
 
 
 .payment {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    justify-content: center;
-    width: 400px;
-    height: 250px;
+    width: 22rem;
     background: rgb(204,7,48);
-    background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
-    margin-left: 36%;
-    padding-bottom: 25px;
-}
-
-p {
-    display: block;
-    padding-top: 5px;
+    padding-bottom: 42px;
 }
 
 .header {
-    font-family: 'Yandex Sans medium';
-    font-size: 26px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 500;
     text-transform: uppercase;
-    text-align: center;
     color: white;
+    padding-bottom: 10px;
 }
 
 .header-txt{
-    font-size: 24px;
-    font-family: 'Yandex Sans light';
+    font-size: 18px;
+    font-weight: 100;
     text-align: center;
     color: white;
-    margin: 10px 150px; 
+    padding-bottom: 25px;
 }
 
 .dots {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .dot1 {
-    height: 11px;
-    width: 11px;
+    height: 13px;
+    width: 13px;
     background-color: yellow;
     border-radius: 50%;
     display: inline-block;
@@ -75,8 +69,8 @@ p {
 }
 
 .dot2, .dot3, .dot4 {
-    height: 11px;
-    width: 11px;
+    height: 13px;
+    width: 13px;
     background-color: white;
     border-radius: 50%;
     margin: auto 8px;
@@ -84,23 +78,22 @@ p {
 }
 
 .question {
-    font-size: 1.6rem;
-    font-family: 'Yandex Sans light';
-    margin-bottom: 2rem;
+    font-size: 22px;
     font-weight: 700;
     text-align: center;
     color: white;
+    padding-bottom: 30px;
+
 }
 
 .buttons {
     display: flex;
-    margin-left: 43%;
-    padding-bottom: 300px;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 30.5%;
 }
 
-.button {
-    font-family: 'Yandex Sans bold';
-    width: 80px;
+.button-b1 {
     font-size: 24px;
     color: #151515;
     font-weight: 700;
@@ -116,243 +109,33 @@ p {
     -o-border-radius: 28px;
 }
 
-    .button:hover{
-        background-color: yellow;
-    }
-
-    .button:focus{
-        background-color: yellow;
-    }
-
-    .footer-para {
-        font-size: 12px;
-        margin: auto 100px;
-        text-align: center;
-        padding-bottom: 10px;
-    }
-
+.button-b2 {
+    font-size: 24px;
+    color: #151515;
+    font-weight: 700;
+    border-radius: 28px;
+    background-color: #fff;
+    padding: 8px 30px 8px 30px;
+    border: none;
+    text-align: center;
+    margin: auto 15px;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    -ms-border-radius: 28px;
+    -o-border-radius: 28px;
 }
 
-@media (max-width: 1024px) {
-    body {
-        box-sizing: border-box;
-        background: rgb(204,7,48);
-        background-repeat: no-repeat;
-        background-position: bottom;
-        background-size: cover;
-        color: #fff;
-        min-height: 100vh;
-        margin: auto;
-    }
-    
-    
-    .payment {
-        -webkit-box-sizing: border-box;
-        box-sizing: border-box;
-        justify-content: center;
-        width: 400px;
-        height: 250px;
-        background: rgb(204,7,48);
-        background-repeat: no-repeat;
-        background-position: bottom;
-        background-size: cover;
-        margin-left: 32%;
-        padding-bottom: 25px;
-    }
-    
-    p {
-        display: block;
-        padding-top: 5px;
-    }
-    
-    .header {
-        font-family: 'Yandex Sans medium';
-        font-size: 26px;
-        font-weight: 700;
-        text-transform: uppercase;
-        text-align: center;
-        color: white;
-    }
-    
-    .header-txt{
-        font-size: 18px;
-        font-family: 'Yandex Sans light';
-        text-align: center;
-        color: white;
-        margin: 10px 50px; 
-    }
-    
-    .dots {
-        text-align: center;
-        margin-bottom: 20px;
-    }
-    
-    .dot1 {
-        height: 11px;
-        width: 11px;
-        background-color: yellow;
-        border-radius: 50%;
-        display: inline-block;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        -o-border-radius: 50%;
-    }
-    
-    .dot2, .dot3, .dot4 {
-        height: 11px;
-        width: 11px;
-        background-color: white;
-        border-radius: 50%;
-        margin: auto 8px;
-        display: inline-block;
-    }
-    
-    .question {
-        font-size: 1.6rem;
-        font-family: 'Yandex Sans light';
-        margin-bottom: 2rem;
-        font-weight: 700;
-        text-align: center;
-        color: white;
-    }
-    
-    .buttons {
-        display: flex;
-        margin-left: 40%;
-        padding-bottom: 300px;
-    }
-    
-    .button {
-        font-family: 'Yandex Sans bold';
-        width: 80px;
-        font-size: 24px;
-        color: #151515;
-        font-weight: 700;
-        border-radius: 28px;
-        background-color: #fff;
-        padding: 8px 25px 8px 25px;
-        border: none;
-        text-align: center;
-        margin: auto 15px;
-        -webkit-border-radius: 28px;
-        -moz-border-radius: 28px;
-        -ms-border-radius: 28px;
-        -o-border-radius: 28px;
-    }
-    
-    .button:hover{
-        background-color: yellow;
-    }
-    
-    .button:focus{
-        background-color: yellow;
-    }
-    
-    .footer-para {
-        font-size: 12px;
-        margin: auto 100px;
-        text-align: center;
-        padding-bottom: 10px;
-    }
-    
+button:hover{
+    background-color: yellow;
 }
 
-@media (max-width: 768px) {
-    .payment {
-        -webkit-box-sizing: border-box;
-        box-sizing: border-box;
-        justify-content: center;
-        width: 200px;
-        height: 200px;
-        background: rgb(204,7,48);
-        background-repeat: no-repeat;
-        background-position: bottom;
-        background-size: cover;
-        margin-left: 35%;
-        padding-bottom: 25px;
-    }    
-    
-    .buttons {
-        display: flex;
-        margin-left: 40%;
-        padding-bottom: 300px;
-    }
-
-    .button {
-        font-family: 'Yandex Sans bold';
-        font-size: 14px;
-        color: #151515;
-        font-weight: 700;
-        border-radius: 28px;
-        background-color: #fff;
-        padding: 8px 25px 8px 25px;
-        border: none;
-        text-align: center;
-        margin: auto 15px;
-        -webkit-border-radius: 28px;
-        -moz-border-radius: 28px;
-        -ms-border-radius: 28px;
-        -o-border-radius: 28px;
-    }
+button:focus{
+    background-color: yellow;
 }
 
-@media (max-width: 425px) {
-    .payment {
-        -webkit-box-sizing: border-box;
-        box-sizing: border-box;
-        justify-content: center;
-        width: 230px;
-        height: 180px;
-        background: rgb(204,7,48);
-        background-repeat: no-repeat;
-        background-position: bottom;
-        background-size: cover;
-        margin-left: 25%;
-        padding-bottom: 25px;
-    }   
-    .header {
-        font-size: 16px;
-    }
-    
-    .header-txt{
-        font-size: 12px;
-        margin: 10px 50px; 
-    }
-    .question {
-        font-size: 18px;
-    }
-    .buttons {
-        display: flex;
-        margin-left: 27%;
-        padding-bottom: 300px;
-    }
-    .button {
-        font-size: 12px;
-        margin: auto 10px;
-    }
-    .footer-para {
-        font-size: 13px;
-        margin: auto 20px;
-        text-align: center;
-        padding-bottom: 10px;
-    }
+.footer-para {
+    font-size: 14px;
+    margin: auto 100px;
+    text-align: center;
 }
 
-@media (max-width: 375px) {
-    .payment {
-        margin-left: 18%;
-    }   
-    .question {
-        font-size: 16px;
-    }
-    .buttons {
-        display: flex;
-        margin-left: 22%;
-        padding-bottom: 300px;
-    }
-    .button {
-        font-size: 12px;
-        margin: auto 10px;
-    }
-}
