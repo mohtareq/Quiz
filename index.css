@@ -139,3 +139,77 @@ button:focus{
     text-align: center;
 }
 
+@media (max-width: 1440px) {
+    .buttons {
+        padding-bottom: 50%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .buttons {
+        padding-bottom: 70%;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-txt{
+        font-size: 16px;
+        margin: auto 25px;
+}
+    .buttons {
+        padding-bottom: 90%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .question {
+        font-size: 18px;    
+        margin: auto 25px;
+    }
+
+    .footer-para {
+        padding-top: 55%;
+        font-size: 12px;
+        margin: auto 100px;
+        text-align: center;
+        margin: auto 25px;
+    }
+    .button-b1 {
+        font-size: 20px;
+        color: #151515;
+        font-weight: 700;
+        border-radius: 28px;
+        background-color: #fff;
+        padding: 8px 20px 8px 20px;
+        border: none;
+        text-align: center;
+        margin: auto 15px;
+        -webkit-border-radius: 28px;
+        -moz-border-radius: 28px;
+        -ms-border-radius: 28px;
+        -o-border-radius: 28px;
+    }
+    
+    .button-b2 {
+        font-size: 20px;
+        color: #151515;
+        font-weight: 700;
+        border-radius: 28px;
+        background-color: #fff;
+        padding: 8px 20px 8px 20px;
+        border: none;
+        text-align: center;
+        margin: auto 15px;
+        -webkit-border-radius: 28px;
+        -moz-border-radius: 28px;
+        -ms-border-radius: 28px;
+        -o-border-radius: 28px;
+    }
+}
+
+@media (max-width: 320px) {
+    .buttons {
+        padding-bottom: 130%;
+    }
+}
