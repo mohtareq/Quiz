@@ -33,9 +33,9 @@ header {
 .boxes-div {
     padding-top: 5px;
     justify-content: space-between;
-    font-size: 14px;
+    font-size: 13px;
     color: #000;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 p {
@@ -64,4 +64,36 @@ p {
     margin-right: 78%;
     line-height: 18px;
     margin-top: 10px;
+}
+
+.comments {
+    display: grid;
+}
+
+.comment-div1 {
+    background-color: #fff9ed;
+    border-bottom: 1px solid #f7e7b7;
+    padding: 10px;
+    display: inline-block;
+}
+.comment-div2 {
+    background-color: white;
+    border-bottom: 1px solid #f7e7b7;
+    padding: 10px;
+    display: inline-block;
+}
+
+.img-comment {
+    width: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.date-div {
+    font-size: 11px;
+    text-align: right;
 }
