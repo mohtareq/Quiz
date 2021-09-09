@@ -11,6 +11,8 @@ let removedcolor = [
     "white"
 ];
 
+
+
 function newQuote() {
     let randomNumber = Math.floor(Math.random() * quotes.length);
     let randomColor = Math.floor(Math.random() * quotes.length);

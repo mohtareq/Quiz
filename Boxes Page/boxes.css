@@ -97,3 +97,90 @@ p {
     font-size: 11px;
     text-align: right;
 }
+
+
+
+
+
+
+.popup {
+    display: none;
+}
+
+#ac-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(5, 5, 5, 0.356);
+    opacity: 1;
+    z-index: 1001;
+}
+
+#popup {
+    padding-top: 20px;
+    width: 600px;
+    height: 710px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    position: relative;
+    top: 30px; left: 38%;
+}
+
+.sec-pop {
+    justify-content: center;
+    text-align: center;
+
+}
+
+.img-div-pop {
+    text-align: center;
+    padding-bottom: 90px;
+}
+
+.img-pop {
+    width: 90%;
+    position: relative;
+    animation: mymove 2s infinite;
+    -webkit-animation: mymove 2s infinite;
+}
+
+@keyframes mymove {
+    0%   {bottom: 0px;}
+    25%  {right: 0px;}
+    50%  {bottom: 10px; right: 10px;}
+    75%  {top: 0px;}
+    100% {bottom: 10px; right: 10px;}
+}
+
+.para-pop {
+    color: #575757;
+    padding-bottom: 20px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+    justify-content: center;
+}
+
+.p2-pop {
+    padding-bottom: 10px;
+}
+
+.p3-pop {
+    padding-bottom: 15px;
+}
+
+.inpout-pop {
+    background-color: #263da1;
+    border-color: #263da1;
+    color: #fff;
+    margin-top: 10px;
+    padding: 10px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
