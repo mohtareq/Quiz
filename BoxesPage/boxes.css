@@ -25,49 +25,6 @@ body {
   width: 240px;
 }
 
-/* Boxes */
-.boxes-section {
-  padding-bottom: 30px;
-  margin: auto 40%;
-}
-
-.boxes-div {
-  display: flex;
-  font-size: 10px;
-  color: #000;
-  padding-bottom: 30px;
-  font-weight: 600;
-}
-
-.boxes {
-  background-size: cover;
-  border-radius: 20px;
-  position: relative;
-  margin: 10px -35px;
-}
-
-.box-01,
-.box-02,
-.box-03 {
-  position: relative;
-  display: flex;
-  -webkit-transition-duration: 0.2s;
-  transition-duration: 0.2s;
-  cursor: pointer;
-}
-
-.box-img {
-  width: 140px;
-}
-
-.top-box {
-  position: absolute;
-}
-
-.bottom-box {
-  position: relative;
-}
-
 /* Popup */
 .popup-container-div {
   display: block;
@@ -158,26 +115,73 @@ body {
   border: 1px solid transparent;
 }
 
-.para1 {
-  margin-right: 70%;
+/* Main */
+.main-content {
+  max-width: 720px;
+  margin: 0 auto;
 }
 
-.comments-sec {
-  margin: auto 40%;
+/* Boxes */
+.boxes-section {
+  padding-bottom: 30px;
 }
 
-.header {
-  padding: 10px;
+.boxes-div {
+  display: flex;
   justify-content: space-between;
-  font-size: 12px;
+  font-size: 14px;
   color: #000;
-  font-weight: 200;
-  border-bottom: 1px solid #f7e7b7;
-  font-family: 'Roboto', sans-serif !important;
+  font-weight: 700;
+  padding: 10px 10px 0;
 }
 
-.para3 {
-  margin-right: 75%;
+.boxes {
+  margin: 10px auto;
+  max-width: 800px;
+}
+
+.box-01,
+.box-02,
+.box-03 {
+  position: relative;
+  display: flex;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+.box-div {
+  position: relative;
+  display: inline-block;
+  max-width: 23.8%;
+  margin: 20px 0;
+}
+
+.box-img {
+  max-width: 100%;
+}
+
+.top-box {
+  position: absolute;
+}
+
+.bottom-box {
+  position: relative;
+}
+
+/* Comment */
+.comments-sec {
+  margin: auto;
+}
+
+.comment-img-div {
+  float: left;
+}
+
+.title {
+  float: left;
+  margin-left: 25px;
+  text-align: left;
 }
 
 .comments {
@@ -209,7 +213,9 @@ body {
 
 .date-div {
   font-size: 11px;
-  text-align: right;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
 }
 
 @keyframes mymove {
