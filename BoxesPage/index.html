@@ -7,39 +7,13 @@
     <title>Boxes Page</title>
     <link rel="stylesheet" href="./boxes.css">
 </head>
-<body>
+<body class="scrollbar-hidden">
     <header>
         <div class="logo-div">
             <img class="logo" src="../img/logo.png" alt="logo">
         </div>
     </header> 
-    <section>
-        <div id="ac-wrapper">
-            <div id="popup">
-                <section class="sec-pop">
-                    <div class="img-div-pop">
-                        <img class="img-pop" src="../img/604e0eb435f52.png" alt="logo">
-                    </div>
-                    <div class="para-pop">
-                        <p class="p-pop">
-                            Customer loyalty program <br>
-                            Your answers have been submitted!
-                        </p>
-                    </div>
-                    <div class="p2-pop">
-                        <p>Find your prize in one of the treasure chests.</p>
-                    </div>
-                    <div class="p3-pop">
-                        <p>To win, you need to choose the right chest.</p>
-                    </div>
-                    <div>
-                        <p>You have 3 attempts. Much luck!</p>
-                    </div>
-                    <input class="inpout-pop" type="submit" name="Open The Chest" value="Open The Chest" onClick="PopUp()" />
-                </section>
-            </div>
-        </div>
-    </section>
+     
     <section class="boxes-section">
         <div class="boxes-div">
             <p class="para1">
@@ -170,6 +144,25 @@
             </div>
         </div>
     </section>   
+
+    <div id="popup-container" class="scrollbar-auto popup-container-div">
+        <div class="popup-div">
+            <div class="extra-pop-div">
+                <div class="main-popup-div">
+                    <img class="img-pop" src="../img/card.png" alt="logo">
+                    <h2 class="h2-popup">
+                        Customer loyalty program <br>
+                        Your answers have been submitted!
+                    </h2>
+                    <p class="strong-p">Find your prize in one of the treasure chests.</p>
+                    <p class="light-p">To win, you need to choose the right chest.</p>
+                    <p class="last-p">You have 3 attempts. Much luck!</p>
+                    <button class="button-popup" onClick="PopUp()">Open The Chest!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <section class="comments-sec">
         <div class="boxes-div">
             <p class="para3">
