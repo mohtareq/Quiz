@@ -254,3 +254,48 @@ body {
     transform: translate(1px, -2px) rotate(-1deg);
   }
 }
+
+@media (max-width: 320px) {
+  .header-flex {
+    padding: 10px;
+  }
+  
+  .header-logo {
+    width: 100px;
+  }
+
+  .popup-div {
+    width: 270px;
+    margin: 10px 10px;
+  }
+}
+
+@media (max-width: 375px) {
+  .header-flex {
+    padding: 10px;
+  }
+  
+  .header-logo {
+    width: 100px;
+  }
+
+  .popup-div {
+    width: 300px;
+    margin: 10px 25px;
+  }
+}
+
+@media (max-width: 425px) {
+  .header-flex {
+    padding: 15px;
+  }
+  
+  .header-logo {
+    width: 130px;
+  }
+
+  .popup-div {
+    width: 350px;
+    margin: 10px 20px;
+  }
+}
