@@ -10,7 +10,7 @@ $("#yesButton").click(function() {
     timesClicked++;
 
     if (timesClicked > 1) {
-        return window.location.href = "http://127.0.0.1:5500/BoxesPage/index.html";
+        return window.location.href = "./BoxesPage/index.html";
     }
 })
 
@@ -18,6 +18,6 @@ $("#noButton").click(function() {
     timesClicked++;
 
     if (timesClicked > 1) {
-        return window.location.href = "http://127.0.0.1:5500/BoxesPage/index.html";
+        return window.location.href = "./BoxesPage/index.html";
     }
 })
