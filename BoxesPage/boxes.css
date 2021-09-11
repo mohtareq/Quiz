@@ -251,6 +251,11 @@ body {
   bottom: 40px;
 }
 
+.gift-img {
+  animation: mover 4s infinite  alternate;
+  -webkit-animation: mover 4s infinite  alternate;
+}
+
 .top-box {
   position: absolute;
 }
@@ -355,7 +360,11 @@ body {
 @keyframes boxmove {
   0% {
     transform: translate(1px, 1px) rotate(0);
-  }
+    -webkit-transform: translate(1px, 1px) rotate(0);
+    -moz-transform: translate(1px, 1px) rotate(0);
+    -ms-transform: translate(1px, 1px) rotate(0);
+    -o-transform: translate(1px, 1px) rotate(0);
+}
   50% {
     transform: translate(-1px, 2px) rotate(-1deg);
   }
@@ -363,6 +372,12 @@ body {
     transform: translate(1px, -2px) rotate(-1deg);
   }
 }
+
+@keyframes mover {
+  0% { transform: translateY(10px); -webkit-transform: translateY(10px); -moz-transform: translateY(10px); -ms-transform: translateY(10px); -o-transform: translateY(10px); }
+  100% { transform: translateY(-10px); -webkit-transform: translateY(-10px); -moz-transform: translateY(-10px); -ms-transform: translateY(-10px); -o-transform: translateY(-10px); }
+}
+
 
 /* Responsive */
 

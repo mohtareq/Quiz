@@ -12,7 +12,7 @@ const tryPop = () => {
 
 const lastPop = () => {
     document.getElementById('thd-pop').style.display = "none";
-    window.location.href = "./BoxesPage/index.html";
+    window.location.href = "../Qoustineer/index.html";
 }
 
 for (let x = 0; x < 12; x++) {
@@ -45,7 +45,7 @@ for (let x = 0; x < 12; x++) {
             document.getElementById(`gift-box-${x}`).style.display = "block";
             setTimeout(() => {
                 document.getElementById('thd-pop').style.display = "block";
-            }, 1000)
+            }, 3000)
         }
     })
 }
