@@ -142,29 +142,20 @@ body {
   max-width: 800px;
 }
 
-.box-01,
-.box-02,
-.box-03 {
-  position: relative;
-  display: flex;
-  -webkit-transition-duration: 0.2s;
-  transition-duration: 0.2s;
-  cursor: pointer;
-}
 
 .box-div {
   position: relative;
   display: inline-block;
   max-width: 23.8%;
+  transition-duration: 0.1s;
   margin: 20px 0;
+  cursor: pointer;
 }
 
 .box-div:hover {
-  animation: mymove 2s infinite;
-  -webkit-animation: mymove 2s infinite;
+  animation: mymove 1s ease-in-out;
+  -webkit-animation: mymove 1s ease-in-out;
 }
-
-
 
 .box-img {
   max-width: 100%;
@@ -172,6 +163,12 @@ body {
 
 .top-box {
   position: absolute;
+}
+
+.box-div-clicked:focus {
+  position: relative;
+  animation: mymove 5s ease-in-out;
+  -webkit-animation: mymove 5s ease-in-out;
 }
 
 .bottom-box {
