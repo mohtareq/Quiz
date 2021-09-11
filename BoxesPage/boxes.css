@@ -142,7 +142,6 @@ body {
   max-width: 800px;
 }
 
-
 .box-div {
   position: relative;
   display: inline-block;
@@ -153,8 +152,8 @@ body {
 }
 
 .box-div:hover {
-  animation: mymove 1s ease-in-out;
-  -webkit-animation: mymove 1s ease-in-out;
+  animation: boxmove 0.5s ease-in-out;
+  -webkit-animation: boxmove 0.5s ease-in-out;
 }
 
 .box-img {
@@ -224,6 +223,7 @@ body {
   justify-content: flex-end;
 }
 
+/* Animation */
 @keyframes mymove {
   0% {
     transform: translate(1px, 1px) rotate(0);
@@ -261,8 +261,21 @@ body {
   }
 }
 
-@media (max-width: 767px) {
+@keyframes boxmove {
+  0% {
+    transform: translate(1px, 1px) rotate(0);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
 
+/* Responsive */
+
+@media (max-width: 767px) {
   .popup-div {
     width: 500px;
     margin: 20px 100px;
@@ -273,7 +286,7 @@ body {
   .header-flex {
     padding: 15px;
   }
-  
+
   .header-logo {
     width: 130px;
   }
@@ -284,13 +297,11 @@ body {
   }
 }
 
-
-
 @media (max-width: 375px) {
   .header-flex {
     padding: 10px;
   }
-  
+
   .header-logo {
     width: 100px;
   }
@@ -305,7 +316,7 @@ body {
   .header-flex {
     padding: 10px;
   }
-  
+
   .header-logo {
     width: 100px;
   }
