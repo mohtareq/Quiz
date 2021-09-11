@@ -257,11 +257,16 @@ body {
   width: 50%;
 }
 
+.top-box-open {
+  transform: matrix(1, 0, 0, 1, 0, -40);
+}
+
 .thd-img {
   width: 100%;
 }
 
-.top-box {
+.top-box,
+.top-box-open {
   position: absolute;
 }
 

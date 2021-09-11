@@ -15,11 +15,12 @@ const lastPop = () => {
     window.location.href = "../Qoustineer/index.html";
 }
 
-for (let x = 0; x < 12; x++) {
+for (let x = 0; x <= 11; x++) {
     var timesClicked = 0;
 
     $(`#box-${x}`).click(function() {
         document.getElementById(`img-${x}`).src="../img/new/box-03.png";
+        document.getElementById(`imgx-${x}`).style.display = "block";
 
         timesClicked++;
         if (timesClicked == 1) {
