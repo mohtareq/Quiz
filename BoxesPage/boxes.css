@@ -159,6 +159,13 @@ body {
   margin: 20px 0;
 }
 
+.box-div:hover {
+  animation: mymove 2s infinite;
+  -webkit-animation: mymove 2s infinite;
+}
+
+
+
 .box-img {
   max-width: 100%;
 }
