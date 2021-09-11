@@ -41,7 +41,9 @@ for (let x = 0; x < 12; x++) {
             }, 1000)
         }
         if (timesClicked == 3) {
-            document.getElementById(`img-${x}`).style.display = "none";
+            /*
+            document.getElementById(`img-${x}`).style.display = "block";
+            */
             document.getElementById(`gift-box-${x}`).style.display = "block";
             setTimeout(() => {
                 document.getElementById('thd-pop').style.display = "block";
