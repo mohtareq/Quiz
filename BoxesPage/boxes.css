@@ -258,6 +258,8 @@ body {
 }
 
 .top-box-open {
+  position: absolute;
+  z-index: 9;
   transform: matrix(1, 0, 0, 1, 0, -40);
 }
 
@@ -265,8 +267,7 @@ body {
   width: 100%;
 }
 
-.top-box,
-.top-box-open {
+.top-box {
   position: absolute;
 }
 
@@ -419,10 +420,11 @@ body {
   #gift-box-9,
   #gift-box-10,
   #gift-box-11 {
-    display: none;
-    position: absolute;
-    bottom: 40px;
-    left: -45px;
+    bottom: 15px;
+  }
+
+  .top-box-open {
+    transform: matrix(1, 0, 0, 1, 0, -20);
   }
 }
 
@@ -439,22 +441,6 @@ body {
     width: 350px;
     margin: 10px 20px;
   }
-
-  #gift-box-0,
-  #gift-box-1,
-  #gift-box-2,
-  #gift-box-3,
-  #gift-box-4,
-  #gift-box-5,
-  #gift-box-6,
-  #gift-box-7,
-  #gift-box-8,
-  #gift-box-9,
-  #gift-box-10,
-  #gift-box-11 {
-    bottom: 15px;
-    left: -45px;
-  }
 }
 
 @media (max-width: 375px) {
@@ -469,22 +455,6 @@ body {
   .popup-div {
     width: 300px;
     margin: 10px 25px;
-  }
-
-  #gift-box-0,
-  #gift-box-1,
-  #gift-box-2,
-  #gift-box-3,
-  #gift-box-4,
-  #gift-box-5,
-  #gift-box-6,
-  #gift-box-7,
-  #gift-box-8,
-  #gift-box-9,
-  #gift-box-10,
-  #gift-box-11 {
-    bottom: 15px;
-    left: -50px;
   }
 }
 
@@ -508,22 +478,5 @@ body {
 
   .date-div {
     font-size: 8px;
-  }
-
-  #gift-box-0,
-  #gift-box-1,
-  #gift-box-2,
-  #gift-box-3,
-  #gift-box-4,
-  #gift-box-5,
-  #gift-box-6,
-  #gift-box-7,
-  #gift-box-8,
-  #gift-box-9,
-  #gift-box-10,
-  #gift-box-11 {
-    bottom: 15px;
-    left: -60px;
-    width: 10px;
   }
 }
