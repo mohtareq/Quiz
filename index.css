@@ -153,23 +153,23 @@ button:focus {
 }
 
 @media (max-width: 768px) {
+  
   .header-txt {
     font-size: 16px;
     margin: auto 25px;
   }
-  .buttons {
-    padding-bottom: 90%;
-  }
-}
 
-@media (max-width: 768px) {
+  .buttons {
+    padding-bottom: 20%;
+  }
+
   .question {
     font-size: 18px;
     margin: auto 25px;
   }
 
   .footer-para {
-    padding-top: 55%;
+    padding-top: 10%;
     font-size: 12px;
     margin: auto 100px;
     text-align: center;

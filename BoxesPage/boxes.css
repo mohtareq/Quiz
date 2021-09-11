@@ -386,6 +386,23 @@ body {
     width: 500px;
     margin: 20px 100px;
   }
+  #gift-box-0,
+  #gift-box-1,
+  #gift-box-2,
+  #gift-box-3,
+  #gift-box-4,
+  #gift-box-5,
+  #gift-box-6,
+  #gift-box-7,
+  #gift-box-8,
+  #gift-box-9,
+  #gift-box-10,
+  #gift-box-11 {
+    display: none;
+    position: absolute;
+    bottom: 40px;
+    left: -45px;
+  }
 }
 
 @media (max-width: 425px) {
@@ -400,6 +417,22 @@ body {
   .popup-div {
     width: 350px;
     margin: 10px 20px;
+  }
+
+  #gift-box-0,
+  #gift-box-1,
+  #gift-box-2,
+  #gift-box-3,
+  #gift-box-4,
+  #gift-box-5,
+  #gift-box-6,
+  #gift-box-7,
+  #gift-box-8,
+  #gift-box-9,
+  #gift-box-10,
+  #gift-box-11 {
+    bottom: 15px;
+    left: -45px;
   }
 }
 
@@ -416,6 +449,22 @@ body {
     width: 300px;
     margin: 10px 25px;
   }
+
+  #gift-box-0,
+  #gift-box-1,
+  #gift-box-2,
+  #gift-box-3,
+  #gift-box-4,
+  #gift-box-5,
+  #gift-box-6,
+  #gift-box-7,
+  #gift-box-8,
+  #gift-box-9,
+  #gift-box-10,
+  #gift-box-11 {
+    bottom: 15px;
+    left: -50px;
+  }
 }
 
 @media (max-width: 320px) {
@@ -430,5 +479,30 @@ body {
   .popup-div {
     width: 270px;
     margin: 10px 10px;
+  }
+
+  .img-comment {
+    width: 35px;
+  }
+
+  .date-div {
+    font-size: 8px;
+  }
+
+  #gift-box-0,
+  #gift-box-1,
+  #gift-box-2,
+  #gift-box-3,
+  #gift-box-4,
+  #gift-box-5,
+  #gift-box-6,
+  #gift-box-7,
+  #gift-box-8,
+  #gift-box-9,
+  #gift-box-10,
+  #gift-box-11 {
+    bottom: 15px;
+    left: -60px;
+    width: 10px;
   }
 }
